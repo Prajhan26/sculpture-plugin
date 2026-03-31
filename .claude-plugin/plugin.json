@@ -10,5 +10,34 @@
     "type": "git",
     "url": "https://github.com/Prajhan26/sculpture-plugin.git"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "commands": [
+    {
+      "name": "sculpture",
+      "description": "Start a guided sculpture session — sculptor agent walks you through what to remove",
+      "path": "commands/sculpture.md"
+    }
+  ],
+  "agents": [
+    {
+      "name": "sculptor",
+      "description": "Expert agent that guides users on what AI capabilities to remove based on their use case",
+      "path": "agents/sculptor.md"
+    }
+  ],
+  "skills": [
+    {
+      "name": "sculpture-guide",
+      "description": "Knowledge base for subtractive AI agent design",
+      "path": "skills/sculpture-guide/SKILL.md"
+    }
+  ],
+  "workflows": [
+    {
+      "name": "sculpt",
+      "description": "End-to-end sculpture session — from zero to a complete sculpture.yaml",
+      "path": "workflows/sculpt.md"
+    }
+  ],
+  "keywords": ["security", "ai-safety", "agents", "compliance", "token-efficiency"]
 }

@@ -1,0 +1,14 @@
+{
+  "name": "sculpture",
+  "owner": {
+    "name": "Prajhan26"
+  },
+  "plugins": [
+    {
+      "name": "sculpture",
+      "source": "./",
+      "description": "Remove AI capabilities for safer, token-efficient agents. We don't build agents, we sculpt them.",
+      "version": "1.0.0"
+    }
+  ]
+}

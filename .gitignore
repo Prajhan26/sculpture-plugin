@@ -12,6 +12,7 @@ Thumbs.db
 __pycache__/
 *.pyc
 .env
+.env.test
 
 # Local Claude Code settings
 .claude/settings.local.json
