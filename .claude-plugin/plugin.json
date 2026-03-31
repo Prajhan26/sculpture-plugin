@@ -1,0 +1,14 @@
+{
+  "name": "sculpture",
+  "description": "Remove AI capabilities for safer, token-efficient agents. We don't build agents, we sculpt them.",
+  "version": "1.0.0",
+  "author": {
+    "name": "hijak"
+  },
+  "homepage": "https://github.com/Prajhan26/sculpture-plugin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Prajhan26/sculpture-plugin.git"
+  },
+  "license": "MIT"
+}

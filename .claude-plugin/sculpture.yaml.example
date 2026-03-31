@@ -1,0 +1,39 @@
+# Sculpture Spec
+# This file defines what capabilities your AI agent has (and doesn't have)
+
+name: my-agent
+version: 1.0.0
+description: Describe what your agent does
+
+# Which AI model to use
+base_model: claude-sonnet-4-20250514
+
+# Capabilities to REMOVE (agent cannot use these)
+remove:
+  - web_search      # No internet access
+  - file_write      # Cannot create/modify files
+  - file_delete     # Cannot delete files
+  - code_execute    # Cannot run code
+  - computer_use    # Cannot control mouse/keyboard
+
+# Capabilities to KEEP (agent can use these)
+keep:
+  - file_read       # Can read files
+  - text_generation # Can generate text responses
+
+# Optional constraints
+constraints:
+  max_tokens: 1000
+  allowed_topics:
+    - customer support
+    - product questions
+  blocked_topics:
+    - competitor information
+    - pricing negotiation
+
+# Audit settings
+audit:
+  log_requests: true
+  log_responses: true
+  log_blocked: true
+  retention_days: 90
